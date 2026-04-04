@@ -1,0 +1,512 @@
+{
+  "business": {
+    "name": "Horizon Kitchen Remodel",
+    "phone": "555-kit-r90",
+    "category": "kitchen-remodel",
+    "city": "Chicago",
+    "state": "IL"
+  },
+  "design": {
+    "preset": {
+      "id": "kitchen-remodel-trust-navy",
+      "categoryGroup": "kitchen-remodel",
+      "name": "Trust Navy",
+      "recipeFile": "kitchen-remodel/trust-navy.astro",
+      "colors": {
+        "primary": "#7C3AED",
+        "primaryDark": "#4C1D95",
+        "primaryLight": "#decefb",
+        "secondary": "#6931c9",
+        "accent": "#A78BFA",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#7C3AED",
+        "surface": "#F4F6F8",
+        "text": "#1A1A2E",
+        "textLight": "#4A5568",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "Playfair Display",
+        "headingWeight": "700",
+        "bodyFont": "Libre Franklin",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "dark",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "kitchen-remodel/trust-navy"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Chicago's Kitchen Transformation Experts",
+      "heroSubline": "Crafting timeless kitchens for Chicago's historic homes. Locally trusted since 2012, we blend modern functionality with Windy City charm.",
+      "aboutTitle": "Built on Chicago Craftsmanship",
+      "aboutText": [
+        "Founded in 2012 by Chicago native Mark Reynolds, Horizon Kitchen Remodel began with a mission to preserve the architectural integrity of local homes while introducing contemporary conveniences. What started as a two-person operation in Logan Square has grown into a team serving the entire metro area.",
+        "We approach every project with Midwestern pragmatism and designer sensibilities. Our process balances meticulous planning with adaptability for Chicago's unpredictable weather and aging home quirks. Cabinetry is test-fitted in our West Town workshop before installation to account for settling foundations.",
+        "When we're not remodeling kitchens, you'll find our team volunteering at neighborhood housing initiatives or sponsoring local Little League teams. We believe beautiful spaces should be accessible to all Chicagoans."
+      ],
+      "valueProps": [
+        {
+          "title": "Weather-Wise Materials",
+          "description": "We specify finishes that withstand Chicago's freeze-thaw cycles and lake-effect humidity without sacrificing style."
+        },
+        {
+          "title": "Historic Home Specialists",
+          "description": "From bungalow breakfast nooks to two-flat galley kitchens, we honor original architecture while modernizing flow."
+        },
+        {
+          "title": "Neighborhood Knowledge",
+          "description": "Local zoning variances, permit processes, and utility quirks are second nature to our team."
+        },
+        {
+          "title": "Personalized Timelines",
+          "description": "We schedule demolition during milder months and complete interior work through winter to minimize weather delays."
+        }
+      ],
+      "ctaHeadline": "Ready for a Kitchen That Fits Your Chicago Life?",
+      "ctaSubline": "Schedule your complimentary design consultation with a local remodeling expert."
+    },
+    "services": [
+      {
+        "slug": "custom-cabinetry",
+        "name": "Custom Cabinetry",
+        "shortDescription": "Handcrafted storage solutions designed for Chicago's unique home layouts.",
+        "description": "Chicago's historic kitchens often demand creative storage solutions. Our craftsmen build cabinets that maximize every inch of your space while complementing original architectural details like arched doorways or hexagon tile. We use quarter-sawn oak for traditional bungalows or sleek European laminates for modern high-rises.\n\nAll cabinetry is constructed in our climate-controlled workshop to prevent seasonal warping. Drawer boxes feature dovetail joints that withstand decades of heavy use, while soft-close mechanisms prevent noisy mornings in open-concept layouts. For older homes, we incorporate subtle leveling adjustments to accommodate settled foundations.",
+        "process": [
+          "Step 1: On-site measurement of your existing kitchen accounting for uneven walls",
+          "Step 2: 3D rendering showing storage solutions for your specific cookware collection",
+          "Step 3: Wood selection from Midwest-sourced hardwoods or durable composites",
+          "Step 4: Final installation with integrated lighting and hardware"
+        ],
+        "benefits": [
+          "Built to last through Chicago's humidity swings",
+          "Hidden organizational features for small kitchens",
+          "Period-appropriate moldings and finishes",
+          "Adjustable shelving for seasonal dishware"
+        ],
+        "faq": [
+          {
+            "question": "How do you prevent cabinet doors from sticking in humid summers?",
+            "answer": "We leave precise expansion gaps and use moisture-resistant finishes. For particularly problematic areas, we install dehumidifier systems within cabinetry."
+          },
+          {
+            "question": "Can you match my original 1920s kitchen trim?",
+            "answer": "Our woodshop maintains profiles for common Chicago bungalow details. We'll take samples to recreate period-correct moldings."
+          }
+        ]
+      },
+      {
+        "slug": "quartz-countertops",
+        "name": "Quartz Countertops",
+        "shortDescription": "Durable surfaces that resist Chicago's extreme temperature changes.",
+        "description": "Engineered quartz offers the beauty of natural stone without the maintenance headaches Chicago weather creates. Unlike granite that can crack during freeze-thaw cycles, our quartz installations maintain seamless integrity year-round. We source slabs with subtle movement patterns that complement both vintage subway tile and contemporary backsplashes.\n\nAll countertop installations include custom-fabricated plywood substrates to prevent flexing in fluctuating temperatures. Edge profiles are routed to match your home's era—from simple eased edges for midcentury ranches to ogee details for Victorian-era properties. For downtown condos, we offer ultra-thin profiles that maximize small-space sightlines.",
+        "process": [
+          "Step 1: Digital templating with laser measurement for perfect fit",
+          "Step 2: Slab selection at our partner showroom in Fulton Market",
+          "Step 3: Fabrication with reinforced seams for structural integrity",
+          "Step 4: Installation with thermal expansion joints"
+        ],
+        "benefits": [
+          "Stain-resistant surface for busy family kitchens",
+          "Non-porous material prevents bacterial growth",
+          "Heat-resistant up to 400°F for holiday cooking",
+          "15-year warranty against thermal damage"
+        ],
+        "faq": [
+          {
+            "question": "Will my quartz countertop feel cold in winter?",
+            "answer": "We install with insulated underlayment that moderates surface temperature. Many clients add radiant heating systems during full remodels."
+          },
+          {
+            "question": "How do you handle sink cutouts in older homes?",
+            "answer": "Our CNC routers create precise openings that accommodate vintage sink sizes while allowing for modern undermount installation."
+          }
+        ]
+      },
+      {
+        "slug": "historic-kitchen-restoration",
+        "name": "Historic Kitchen Restoration",
+        "shortDescription": "Preserving Chicago's architectural heritage while adding modern functionality.",
+        "description": "Many of Chicago's landmark districts require sensitive approaches to kitchen updates. Our restoration specialists document original layouts before carefully dismantling salvageable elements like built-in hutches or porcelain sinks. We then rebuild with historically appropriate materials—salvaged Chicago common brick for new walls, locally forged iron for hardware, and milk paint finishes.\n\nModern conveniences are discreetly integrated: refrigerator panels matching original cabinetry, undermount lighting disguised as period fixtures, and induction cooktops hidden beneath restored wood countertops. For Arts & Crafts homes, we recreate built-in breakfast nooks using quarter-sawn oak from the same Indiana mills that supplied early 20th-century builders.",
+        "process": [
+          "Step 1: Architectural research at Chicago Historical Society archives",
+          "Step 2: Salvage assessment of existing materials",
+          "Step 3: Milling of period-appropriate moldings and trim",
+          "Step 4: Installation with reversible modern systems"
+        ],
+        "benefits": [
+          "Maintains property value in historic districts",
+          "Authentic materials from local suppliers",
+          "Hidden modern appliances",
+          "Preservation-approved techniques"
+        ],
+        "faq": [
+          {
+            "question": "Can you restore my original Hoosier cabinet?",
+            "answer": "Yes, we partner with Chicago Antique Hardware to refurbish original mechanisms while adding discreet storage enhancements."
+          },
+          {
+            "question": "How do you handle modern electrical in vintage kitchens?",
+            "answer": "We conceal wiring within reproduced moldings and use replica push-button switches that meet current safety codes."
+          }
+        ]
+      },
+      {
+        "slug": "smart-kitchen-upgrades",
+        "name": "Smart Kitchen Upgrades",
+        "shortDescription": "Integrating technology seamlessly into Chicago's diverse home styles.",
+        "description": "Today's kitchen technology shouldn't clash with your home's architectural character. We design smart systems that feel organic to your space—voice-controlled lighting disguised as vintage pendants, touchless faucets with period-appropriate finishes, and hidden charging stations within reclaimed wood islands.\n\nFor downtown high-rises, we install appliance connectivity systems that alert building staff to maintenance needs. Suburban clients appreciate our smart pantries with inventory tracking that adjusts grocery lists based on Chicago's seasonal cooking trends. All technology is selected for reliability during power fluctuations common near Lake Michigan.",
+        "process": [
+          "Step 1: Lifestyle assessment to identify useful tech features",
+          "Step 2: System design preserving aesthetic continuity",
+          "Step 3: Professional-grade equipment installation",
+          "Step 4: Personalized training on all features"
+        ],
+        "benefits": [
+          "Discreet technology integration",
+          "Energy monitoring for Chicago's variable rates",
+          "Leak detection systems for older plumbing",
+          "Whole-home connectivity options"
+        ],
+        "faq": [
+          {
+            "question": "Will smart features work during Chicago power surges?",
+            "answer": "We install whole-home surge protectors and battery backups for critical systems like refrigerator monitoring."
+          },
+          {
+            "question": "Can you automate my vintage radiator kitchen heat?",
+            "answer": "Yes, we integrate smart valves that maintain consistent temperatures while preserving original radiator aesthetics."
+          }
+        ]
+      },
+      {
+        "slug": "accessible-kitchen-design",
+        "name": "Accessible Kitchen Design",
+        "shortDescription": "Creating kitchens that adapt to Chicago's multigenerational households.",
+        "description": "Many Chicago families need kitchens that accommodate aging relatives or family members with mobility challenges. Our universal design specialists create spaces that blend accessibility with style—countertops with variable heights for wheelchair users and standing cooks, touch-latch cabinets that eliminate difficult hardware, and task lighting that adapts to changing vision needs.\n\nWe pay special attention to Chicago's narrow bungalow kitchens, implementing space-saving solutions like rotating corner cabinets and pull-down shelving. For multi-unit buildings, we design kitchens that can be easily modified as needs change, avoiding costly future renovations. All work meets or exceeds ADA standards while maintaining neighborhood architectural character.",
+        "process": [
+          "Step 1: Needs assessment with occupational therapists",
+          "Step 2: Ergonomic layout planning",
+          "Step 3: Adaptive fixture selection",
+          "Step 4: Future-proof installation"
+        ],
+        "benefits": [
+          "Comfortable for users of all abilities",
+          "Discreet accessibility features",
+          "Easy-to-clean surfaces",
+          "Adjustable components"
+        ],
+        "faq": [
+          {
+            "question": "Can you make my historic kitchen accessible without losing character?",
+            "answer": "Absolutely. We've preserved original details in Lincoln Park brownstones while adding features like toe kicks that accommodate wheelchairs."
+          },
+          {
+            "question": "Do accessible kitchens cost more?",
+            "answer": "Many features like pull-out shelves benefit all users and add minimal cost. We prioritize budget-conscious solutions first."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Marta K.",
+        "rating": 5,
+        "service": "Historic Kitchen Restoration",
+        "text": "Horizon preserved the 1912 character of our Logan Square two-flat kitchen while adding discreet modern conveniences. The custom-milled oak cabinets match the original trim perfectly, and the hidden dishwasher is a game-changer. They even sourced Chicago common brick to repair the original chimney breast.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "James R.",
+        "rating": 5,
+        "service": "Quartz Countertops",
+        "text": "After our granite cracked during a brutal Chicago winter, Horizon recommended quartz countertops with extra reinforcement. Two years later, they still look brand new despite our kids' constant abuse. The matte finish hides fingerprints beautifully, and the integrated hot pad holder is genius.",
+        "date": "2025-01-22"
+      },
+      {
+        "name": "Lena & Tom W.",
+        "rating": 5,
+        "service": "Smart Kitchen Upgrades",
+        "text": "Converting our Gold Coast condo kitchen to smart technology was seamless with Horizon. The voice-controlled lighting looks like vintage fixtures but responds to commands even during noisy dinner parties. The under-cabinet charging station keeps our devices powered without cluttering the limited counter space.",
+        "date": "2024-11-30"
+      },
+      {
+        "name": "Carlos D.",
+        "rating": 5,
+        "service": "Custom Cabinetry",
+        "text": "Our bungalow's awkward kitchen layout finally makes sense thanks to Horizon's custom cabinets. The narrow pull-out spice racks fit perfectly between studs, and the appliance garage hides our mixer while matching the original trim. The team worked around our irregular walls without a single filler panel.",
+        "date": "2024-10-17"
+      },
+      {
+        "name": "Sophia P.",
+        "rating": 5,
+        "service": "Accessible Kitchen Design",
+        "text": "After my mother moved in, Horizon transformed our Evanston kitchen for multigenerational living. The adjustable-height island lets her prep meals seated while our teenagers can stand. The touch-latch cabinets are easier for her arthritis, and the contrasting edge banding helps with depth perception.",
+        "date": "2024-09-05"
+      },
+      {
+        "name": "Raj N.",
+        "rating": 5,
+        "service": "Full Kitchen Remodel",
+        "text": "Horizon navigated our West Loop loft's strict HOA guidelines while delivering a stunning modern kitchen. The floating shelves showcase our collection of Chicago-themed pottery, and the waterfall island anchors the open space perfectly. They completed the project two weeks ahead of schedule despite supply chain delays.",
+        "date": "2024-08-21"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Chicago Kitchen Remodeling Experts | Horizon Kitchen Remodel",
+        "description": "Local Chicago kitchen remodelers specializing in historic homes and modern updates. Serving Naperville, Evanston, and Cook County since 2012."
+      },
+      "about": {
+        "title": "About Our Chicago Kitchen Remodel Company",
+        "description": "Learn how Horizon Kitchen Remodel brings Chicago craftsmanship to every project. Family-owned and operated since 2012."
+      },
+      "services": {
+        "title": "Chicago Kitchen Remodeling Services | Custom Solutions",
+        "description": "From historic restorations to smart kitchens, we offer comprehensive remodeling services for Chicago-area homes."
+      },
+      "contact": {
+        "title": "Contact Chicago's Kitchen Remodel Specialists",
+        "description": "Schedule a consultation with Horizon Kitchen Remodel. Serving Cook County and Chicago suburbs with quality craftsmanship."
+      },
+      "reviews": {
+        "title": "Chicago Kitchen Remodel Reviews | Horizon Testimonials",
+        "description": "Read verified customer reviews from Chicago homeowners who transformed their kitchens with Horizon."
+      },
+      "service-areas": {
+        "title": "Chicago Suburbs Kitchen Remodeling | Service Areas",
+        "description": "Horizon serves Naperville, Evanston, Schaumburg, and surrounding Chicago suburbs with premium kitchen remodels."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Naperville",
+        "slug": "naperville-il",
+        "state": "IL",
+        "content": "Horizon Kitchen Remodel specializes in transforming kitchens in Naperville’s upscale family homes, primarily built from the 1970s to the 2000s. Our team understands the unique layout and structural needs of these homes, offering modern upgrades that enhance functionality while preserving their classic charm. Given Naperville’s harsh winters with heavy snow and ice, we prioritize durable materials and energy-efficient solutions to withstand the climate while keeping your kitchen cozy and stylish.",
+        "localContext": "Naperville features upscale family homes from the 1970s-2000s, with a focus on spacious layouts and high-end finishes.",
+        "nearbyAreas": [
+          "Aurora",
+          "Lisle",
+          "Bolingbrook"
+        ]
+      },
+      {
+        "city": "Aurora",
+        "slug": "aurora-il",
+        "state": "IL",
+        "content": "Aurora’s diverse housing stock, ranging from 1960s to 2000s builds, calls for a kitchen remodeler who can adapt to varying architectural styles. Horizon Kitchen Remodel excels in updating these kitchens with contemporary designs, whether it’s a mid-century ranch or a newer suburban home. We also account for Aurora’s harsh winters by recommending weather-resistant materials and insulation solutions to ensure your kitchen remains comfortable year-round.",
+        "localContext": "Aurora boasts a mix of housing from the 1960s-2000s, reflecting its growth as a thriving suburban community.",
+        "nearbyAreas": [
+          "Naperville",
+          "Montgomery",
+          "Oswego"
+        ]
+      },
+      {
+        "city": "Schaumburg",
+        "slug": "schaumburg-il",
+        "state": "IL",
+        "content": "Schaumburg’s 1970s-80s suburban developments often feature kitchens that need modernization to meet today’s standards. Horizon Kitchen Remodel specializes in revitalizing these spaces with sleek cabinetry, smart storage solutions, and durable countertops that can handle the area’s harsh winters. Our designs blend functionality with the timeless appeal of Schaumburg’s established neighborhoods.",
+        "localContext": "Schaumburg is known for its 1970s-80s suburban homes, offering a blend of affordability and community charm.",
+        "nearbyAreas": [
+          "Hoffman Estates",
+          "Arlington Heights",
+          "Elk Grove Village"
+        ]
+      },
+      {
+        "city": "Evanston",
+        "slug": "evanston-il",
+        "state": "IL",
+        "content": "Evanston’s historic homes, many dating from the 1890s to the 1930s, require a delicate touch when remodeling kitchens. Horizon Kitchen Remodel respects the architectural integrity of these properties while introducing modern amenities and energy-efficient upgrades. Given the city’s cold winters, we focus on insulation and heating solutions to keep your kitchen warm and inviting.",
+        "localContext": "Evanston is home to historic properties near Northwestern University, blending vintage charm with academic vibrancy.",
+        "nearbyAreas": [
+          "Skokie",
+          "Wilmette",
+          "Chicago"
+        ]
+      },
+      {
+        "city": "Arlington Heights",
+        "slug": "arlington-heights-il",
+        "state": "IL",
+        "content": "Arlington Heights’ 1950s-70s ranch homes often feature kitchens that need updates to match modern lifestyles. Horizon Kitchen Remodel excels in transforming these spaces with open-concept designs, high-quality materials, and energy-efficient appliances. We also address the challenges of harsh winters by recommending durable flooring and insulation to ensure year-round comfort.",
+        "localContext": "Arlington Heights is characterized by established ranch homes from the 1950s-70s, offering a quiet suburban feel.",
+        "nearbyAreas": [
+          "Schaumburg",
+          "Palatine",
+          "Mount Prospect"
+        ]
+      },
+      {
+        "city": "Wheaton",
+        "slug": "wheaton-il",
+        "state": "IL",
+        "content": "Wheaton’s blend of historic and mid-century homes calls for a kitchen remodeler who can balance tradition with innovation. Horizon Kitchen Remodel delivers custom solutions, from preserving original details in older homes to introducing modern layouts in postwar builds. We also prioritize winter-ready materials to handle the area’s heavy snow and ice.",
+        "localContext": "Wheaton features a mix of historic and mid-century homes, with a strong sense of community.",
+        "nearbyAreas": [
+          "Naperville",
+          "Glen Ellyn",
+          "Carol Stream"
+        ]
+      },
+      {
+        "city": "Oak Park",
+        "slug": "oak-park-il",
+        "state": "IL",
+        "content": "Oak Park’s iconic Frank Lloyd Wright-inspired homes and historic properties demand a kitchen remodeler with an eye for detail. Horizon Kitchen Remodel crafts designs that honor the area’s architectural legacy while incorporating modern functionality. We also address the challenges of cold winters with insulated windows and heated flooring options.",
+        "localContext": "Oak Park is renowned for its historic homes, including many designed by Frank Lloyd Wright.",
+        "nearbyAreas": [
+          "River Forest",
+          "Forest Park",
+          "Chicago"
+        ]
+      },
+      {
+        "city": "Downers Grove",
+        "slug": "downers-grove-il",
+        "state": "IL",
+        "content": "Downers Grove’s mix of mid-century and newer homes presents opportunities for kitchen upgrades that enhance both style and efficiency. Horizon Kitchen Remodel specializes in creating spacious, modern kitchens with durable materials suited for the area’s harsh winters. Our designs focus on maximizing natural light and storage in these well-established neighborhoods.",
+        "localContext": "Downers Grove offers a blend of mid-century and contemporary homes, with tree-lined streets and top-rated schools.",
+        "nearbyAreas": [
+          "Lisle",
+          "Naperville",
+          "Westmont"
+        ]
+      },
+      {
+        "city": "Glenview",
+        "slug": "glenview-il",
+        "state": "IL",
+        "content": "Glenview’s upscale homes, ranging from historic estates to newer builds, benefit from Horizon Kitchen Remodel’s tailored approach. We design kitchens that complement the area’s affluent character while incorporating practical features for everyday living. Given the cold winters, we recommend heated flooring and storm-resistant windows for added comfort.",
+        "localContext": "Glenview is known for its upscale homes, excellent schools, and proximity to Lake Michigan.",
+        "nearbyAreas": [
+          "Northbrook",
+          "Wilmette",
+          "Skokie"
+        ]
+      },
+      {
+        "city": "Orland Park",
+        "slug": "orland-park-il",
+        "state": "IL",
+        "content": "Orland Park’s suburban homes, many built in the 1990s-2000s, often need kitchen updates to align with modern trends. Horizon Kitchen Remodel delivers sleek, functional designs with high-end finishes that elevate these spaces. We also prioritize materials that can withstand the region’s cold winters and heavy snowfall.",
+        "localContext": "Orland Park features spacious suburban homes, with a focus on family-friendly amenities.",
+        "nearbyAreas": [
+          "Tinley Park",
+          "Palos Hills",
+          "Mokena"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "custom-cabinetry": "/images/service-custom-cabinetry.webp",
+      "quartz-countertops": "/images/service-quartz-countertops.webp",
+      "historic-kitchen-restoration": "/images/service-historic-kitchen-restoration.webp",
+      "smart-kitchen-upgrades": "/images/service-smart-kitchen-upgrades.webp",
+      "accessible-kitchen-design": "/images/service-accessible-kitchen-design.webp"
+    },
+    "servicesResponsive": {
+      "custom-cabinetry": {
+        "src": "/images/service-custom-cabinetry.webp",
+        "srcset": "/images/service-custom-cabinetry-400w.webp 400w, /images/service-custom-cabinetry-800w.webp 800w, /images/service-custom-cabinetry-1200w.webp 1200w, /images/service-custom-cabinetry.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "quartz-countertops": {
+        "src": "/images/service-quartz-countertops.webp",
+        "srcset": "/images/service-quartz-countertops-400w.webp 400w, /images/service-quartz-countertops-800w.webp 800w, /images/service-quartz-countertops-1200w.webp 1200w, /images/service-quartz-countertops.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "historic-kitchen-restoration": {
+        "src": "/images/service-historic-kitchen-restoration.webp",
+        "srcset": "/images/service-historic-kitchen-restoration-400w.webp 400w, /images/service-historic-kitchen-restoration-800w.webp 800w, /images/service-historic-kitchen-restoration-1200w.webp 1200w, /images/service-historic-kitchen-restoration.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "smart-kitchen-upgrades": {
+        "src": "/images/service-smart-kitchen-upgrades.webp",
+        "srcset": "/images/service-smart-kitchen-upgrades-400w.webp 400w, /images/service-smart-kitchen-upgrades-800w.webp 800w, /images/service-smart-kitchen-upgrades-1200w.webp 1200w, /images/service-smart-kitchen-upgrades.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "accessible-kitchen-design": {
+        "src": "/images/service-accessible-kitchen-design.webp",
+        "srcset": "/images/service-accessible-kitchen-design-400w.webp 400w, /images/service-accessible-kitchen-design-800w.webp 800w, /images/service-accessible-kitchen-design-1200w.webp 1200w, /images/service-accessible-kitchen-design.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
